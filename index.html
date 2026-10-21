@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile | Bế Đức Khoa</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      color: #263238;
+      line-height: 1.7;
+    }
+
+    .profile {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+    }
+
+    header {
+      padding: 35px 25px;
+      background: #245c80;
+      color: white;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 90px;
+      height: 90px;
+      margin: 0 auto 15px;
+      border: 3px solid white;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: #ffffff20;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p {
+      margin: 8px 0 0;
+    }
+
+    main {
+      padding: 25px 35px;
+    }
+
+    section {
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #e5edf3;
+      color: #245c80;
+      font-size: 20px;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: 130px 1fr;
+      gap: 10px;
+    }
+
+    .info dt {
+      font-weight: bold;
+    }
+
+    .info dd {
+      margin: 0;
+    }
+
+    .hobby {
+      display: inline-block;
+      padding: 7px 16px;
+      border-radius: 20px;
+      background: #eaf3fa;
+      color: #245c80;
+    }
+
+    footer {
+      padding: 16px;
+      border-top: 1px solid #e5edf3;
+      color: #667781;
+      text-align: center;
+      font-size: 13px;
+    }
+
+    @media (max-width: 480px) {
+      body { padding: 15px; }
+      main { padding: 20px; }
+      h1 { font-size: 27px; }
+      .info { grid-template-columns: 100px 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <article class="profile">
+    <header>
+      <div class="avatar" aria-hidden="true">BĐK</div>
+      <h1>Bế Đức Khoa</h1>
+      <p>Sinh viên Công nghệ thông tin · ICTU</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Giới thiệu</h2>
+        <p>
+          Xin chào! Mình là Bế Đức Khoa, đến từ Thái Nguyên.
+          Hiện mình đang theo học ngành Công nghệ thông tin tại
+          Trường Đại học Công nghệ Thông tin và Truyền thông
+          Thái Nguyên (ICTU).
+        </p>
+      </section>
+
+      <section>
+        <h2>Thông tin cá nhân</h2>
+        <dl class="info">
+          <dt>Họ và tên</dt>
+          <dd>Bế Đức Khoa</dd>
+
+          <dt>Ngày sinh</dt>
+          <dd>20/09/2005</dd>
+
+          <dt>Quê quán</dt>
+          <dd>Thái Nguyên</dd>
+
+          <dt>Hiện tại</dt>
+          <dd>Sinh viên</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Học vấn</h2>
+        <p>
+          <strong>Trường Đại học Công nghệ Thông tin và
+          Truyền thông Thái Nguyên (ICTU)</strong><br>
+          Ngành học: Công nghệ thông tin
+        </p>
+      </section>
+
+      <section>
+        <h2>Sở thích</h2>
+        <span class="hobby">⚽ Thể thao đa thể loại</span>
+      </section>
+    </main>
+
+    <footer>Trang cá nhân của Bế Đức Khoa</footer>
+  </article>
+</body>
+</html>
